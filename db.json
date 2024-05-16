@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ahmed KV",
+      "email": "ahmedkv@hotmail.com",
+      "status": "Active"
+    },
+    {
+      "name": "Amed KMH",
+      "email": "kmahmed@gmail.com",
+      "status": "Inactive",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Babu",
+      "email": "babu9@gmail.com",
+      "status": "Active"
+    },
+    {
+      "id": "4",
+      "name": "Cathy",
+      "email": "cathy@hotmail.com",
+      "status": "Active"
+    },
+    {
+      "id": "5",
+      "name": "Figgy",
+      "email": "figgy3@gmail.com",
+      "status": "Inactive"
+    },
+    {
+      "id": "6",
+      "name": "Zebra",
+      "email": "zebre@gmail.com",
+      "status": "Active"
+    }
+  ]
+}
