@@ -2,7 +2,7 @@
 const jsonServer = require('json-server')
 
 // create server for mp
-const MPServer = jsonServer.create()
+const TEServer = jsonServer.create()
 
 // create middleware used by JSON Server
 const middleware = jsonServer.defaults()
@@ -14,8 +14,8 @@ const route = jsonServer.router('db.json')
 const PORT = 3000 || process.env.PORT
 
 
-TESERVER.use(middleware)
-TESERVER.use(route)
+TEServer.use(middleware)
+TEServer.use(route)
 TEServer.listen(PORT,()=>{
     console.log(`Test Employee Server started at port ${PORT} and waiting for client request`);
 })
